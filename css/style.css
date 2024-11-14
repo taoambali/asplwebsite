@@ -32,6 +32,8 @@ ul {
     margin: auto;
 }
 
+/* header */
+
 .header {
     border: 1px solid red;
     padding: 16px 0;
@@ -80,7 +82,7 @@ ul {
 
 .header .social a {
     margin-left: 34px;
-    background-color: red;
+    background-color: #ff6478;;
     color: #fff;
     padding: 4px 8px;
     border-radius: 8px;
@@ -104,4 +106,56 @@ ul {
 .header .social a:hover,
 .header .social .login:hover {
     opacity: 0.5;
+}
+
+/* Who we are */
+.whoweare {
+    background-color:#334282;
+    color: #fff;
+    border: 1px solid red;
+    height: 80vh;
+}
+
+.whoweare .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.whoweare .objective,
+.whoweare .vision,
+.whoweare .mission {
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    color: #000;
+    border-radius: 8px;
+}
+
+.whoweare h3 {
+    color: #ff6478;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.whoweare p {
+    line-height: 1.8;
+    /* color: #ff6478; */
+    /* letter-spacing: 1px; */
+}
+
+.whoweare .objective {
+    border: 1px solid blue;
+    /* align-self:flex-start; */
+}
+
+.whoweare .vision {
+    border: 1px solid orange;
+}
+
+.whoweare .mission {
+    border: 1px solid green;
 }
