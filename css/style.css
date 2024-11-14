@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 32px;
+    margin: auto;
+}
+
+.header {
+    border: 1px solid red;
+    padding: 16px 0;
+}
+
+.header .nav {
+    /* flex: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    /* flex: 1; */
+    width: 120px;
+}
+
+.header .links {
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .links li {
+    margin-left: 24px;
+}
+.header .links a {
+    /* padding: 8px; */
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header .current {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+}
+
+.header .social {
+    /* flex: 1; */
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .social a {
+    margin-left: 34px;
+    background-color: red;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 8px;
+
+}
+
+.header .social a .line {
+    font-size: 20px;
+}
+
+.header .social .login {
+    /* background-color: red; */
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 14px;
+    margin-left: 34px;
+    transition: 0.5s;
+}
+
+.header .social a:hover,
+.header .social .login:hover {
+    opacity: 0.5;
+}
